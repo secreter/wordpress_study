@@ -149,3 +149,149 @@ function boj_add_related_posts_to_content( $content) {
     /* 返回 content */
     return $content;
 }
+
+
+
+// boj_widgetexample_widget_my_info class
+    class boj_widgetexample_widget_my_info extends WP_Widget {
+ 		// process the new widget
+	    function __construct() {
+	        $widget_ops = array(
+	            'classname' => 'boj_widgetexample_widget_class',
+	            'description' => 'Display a user\'s favorite movie and song.'
+	        );
+	        parent::__construct( 'boj_widgetexample_widget_my_info', 'My Info Widget', $widget_ops );
+	    }
+
+	    function form($instance) {
+	        $defaults = array( 'title' => 'My Info', 'movie' => '', 'song' => '' );
+	        $instance = wp_parse_args( (array) $instance, $defaults );
+	        $title = $instance['title'];
+	        $movie = $instance['movie'];
+	        $song = $instance['song'];
+	        ?>
+	 
+	        <p>Title: <input id="<?php echo $this->get_field_id('title');?>" class="widefat" name="<?php echo $this->get_field_name('title'); ?>" type="text"
+	            value="<?php echo $title; ?>" /></p>
+	        <p> Favorite Movie: <input class="widefat" name="<?php echo $this->get_field_name('movie'); ?> "type="text"
+	            value="<?php echo esc_attr( $movie ); ?> " /> </p>
+	        <p> Favorite Song: <textarea class="widefat" name="<?php echo $this->get_field_name('song'); ?> " />
+	            <?php echo esc_attr( $song ); ?> </textarea> </p>
+	        <?php
+	    }
+
+	    // 保存小工具设置
+	    function update( $new_instance, $old_instance ) {
+	        $instance = $old_instance;
+	        $instance['title'] = strip_tags( $new_instance['title'] );
+	        $instance['movie'] = strip_tags( $new_instance['movie'] );
+	        $instance['song'] = strip_tags( $new_instance['song'] );
+	 
+	        return $instance;
+	    }
+
+	    // 显示小工具
+	    function widget( $args, $instance ) {
+	        extract( $args );
+	 
+	        echo $before_widget;
+	        $title = apply_filters( 'widget_title', $instance['title'] );
+	        $movie = empty( $instance['movie'] ) ? '&nbsp;' : $instance['movie'];
+	        $song = empty( $instance['song'] ) ? '&nbsp;' : $instance['song'];
+	 
+	        if ( !empty( $title ) ) { echo $before_title . $title . $after_title; };
+	        echo '<p> Fav Movie: ' . $movie . '</p>';
+	        echo '<p> Fav Song: ' . $song . '</p>';
+	        echo $after_widget;
+	    }
+
+    }
+
+
+
+    // boj_awe_widget class
+    class boj_awe_widget extends WP_Widget {
+        // process the new widget
+        function __construct() {
+            $widget_ops = array(
+                'classname' => 'boj_awe_widget_class',
+                'description' => 'Display an RSS feed with options.'
+            );
+            parent::__construct( 'boj_awe_widget', 'Advaced RSS Widget', $widget_ops );
+        }
+
+        // 创建小工具的设置表单
+        function form( $instance ) {
+            $defaults = array(
+                'title' => 'RSS Feed',
+                'rss_feed' => 'http://strangework.com/feed',
+                'rss_items' => '2'
+            );
+            $instance = wp_parse_args( (array) $instance, $defaults );
+            $title = $instance['title'];
+            $rss_feed = $instance['rss_feed'];
+            $rss_items = $instance['rss_items'];
+            $rss_date = $instance['rss_date'];
+            $rss_summary = $instance['rss_summary'];
+            ?>
+                <p>Title: <input class="widefat" name="<?php echo $this->get_field_name( 'title' ); ?>"
+                    type = "text" value="<?php echo esc_attr( $title ); ?>" /></p>
+                <p>RSS Feed: <input class="widefat" name="<?php echo $this->get_field_name( 'rss_feed' ); ?>"
+                    type="text" value="<?php echo esc_attr( $rss_feed ); ?>" /></p>
+                <p>Items to Display:
+                    <select name="<?php echo $this->get_field_name( 'rss_items' ); ?>">
+                        <option value="1" <?php selected( $rss_items, 1 ); ?>>1</option>
+                        <option value="2" <?php selected( $rss_items, 2 ); ?>>2</option>
+                        <option value="3" <?php selected( $rss_items, 3 ); ?>>3</option>
+                        <option value="4" <?php selected( $rss_items, 4 ); ?>>4</option>
+                        <option value="5" <?php selected( $rss_items, 5 ); ?>>5</option>
+                    </select>
+                </p>
+                <p>Show Date?: <input name="<?php echo $this->get_field_name( 'rss_date' ); ?>"
+                    type="checkbox" <?php checked( $rss_date, 'on' ); ?> /></p>
+                <p>Show Summary?: <input name="<?php echo $this->get_field_name( 'rss_summary' ); ?>"
+                    type="checkbox" <?php checked( $rss_summary, 'on' ); ?> /></p>
+                <?php
+        }
+        // 保存小工具设置
+	    function update( $new_instance, $old_instance ) {
+	        $instance = $old_instance;
+	        $instance['title'] = strip_tags( $new_instance['title'] );
+	        $instance['rss_feed'] = strip_tags( $new_instance['rss_feed'] );
+	        $instance['rss_items'] = strip_tags( $new_instance['rss_items'] );
+	        $instance['rss_date'] = strip_tags( $new_instance['rss_date'] );
+	        $instance['rss_summary'] = strip_tags( $new_instance['rss_summary'] );
+	 
+	        return $instance;
+	    }
+
+	    // 显示小工具
+	    function widget( $args, $instance ) {
+	        extract( $args );
+	 
+	        echo $before_widget;
+	 
+	        // load the widget settings
+	        $title = apply_filters( 'widget_title', $instance['title'] );
+	        $rss_feed = empty( $instance['rss_feed'] ) ? '' : $instance['rss_feed'];
+	        $rss_items = empty( $instance['rss_items'] ) ? 2 : $instance['rss_items'];
+	        $rss_date = empty( $instance['rss_date'] ) ? 0 : 1;
+	        $rss_summary = empty( $instance['rss_summary'] ) ? 0 : 1;
+	 
+	        if ( !empty( $title ) ) { echo $before_title . $title . $after_title; };
+	 
+	        if ( $rss_feed ) {
+	            // display the RSS feed
+	            wp_widget_rss_output( array(
+	                'url' => $rss_feed,
+	                'title' => $title,
+	                'items' => $rss_items,
+	                'show_summary' => $rss_summary,
+	                'show_author' => 0,
+	                'show_date' => $rss_date
+	            ) );
+	        }
+	 
+	         echo $after_widget;
+	    }
+	}

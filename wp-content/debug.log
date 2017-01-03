@@ -8,3 +8,129 @@
 [02-Jan-2017 14:04:56 UTC] PHP Parse error:  syntax error, unexpected '{' in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 135
 [02-Jan-2017 14:05:15 UTC] PHP Parse error:  syntax error, unexpected '$content' (T_VARIABLE) in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 150
 [02-Jan-2017 14:05:18 UTC] PHP Parse error:  syntax error, unexpected '$content' (T_VARIABLE) in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 150
+[03-Jan-2017 02:00:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_copyright_info' not found or invalid function name in D:\study\AppServ\www\item\wordpress\wp-includes\class-wp-hook.php on line 298
+[03-Jan-2017 02:00:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'add_copyright_info' not found or invalid function name in D:\study\AppServ\www\item\wordpress\wp-includes\class-wp-hook.php on line 298
+[03-Jan-2017 08:38:53 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:38:55 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:39:09 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:39:10 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:39:23 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:39:57 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:41:57 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:43:58 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:46:00 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:48:00 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:52:18 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:52:20 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:52:49 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:53:31 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:53:52 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:54:49 UTC] PHP Parse error:  syntax error, unexpected '__construct' (T_STRING), expecting function (T_FUNCTION) in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 158
+[03-Jan-2017 08:54:57 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:55:26 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:56:28 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:57:28 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:58:28 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 08:59:28 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:00:28 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:00:51 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:01:51 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:02:15 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:03:17 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:05:17 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:06:30 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:07:25 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:07:38 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:07:39 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:08:04 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:08:51 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:08:52 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:09:06 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:09:13 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:09:17 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:10:06 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:12:06 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:14:06 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:15:24 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:15:27 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:15:39 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:15:39 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:15:39 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:15:39 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:16:30 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:18:31 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:20:32 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:21:18 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:21:30 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:21:30 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:21:30 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:21:30 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:21:32 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:21:41 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:22:32 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:23:34 UTC] PHP Notice:  在boj_widgetexample_widget_my_info中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:26:04 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:26:04 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:26:04 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:32:49 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:32:49 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:32:49 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:34:26 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:34:26 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:34:26 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:37:05 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:37:05 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:37:05 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:37:10 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:37:10 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:37:10 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:42:26 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:42:26 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:42:26 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:42:31 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 189
+[03-Jan-2017 09:42:31 UTC] PHP Notice:  Undefined index: movie in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 190
+[03-Jan-2017 09:42:31 UTC] PHP Notice:  Undefined index: song in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 191
+[03-Jan-2017 09:52:04 UTC] PHP Fatal error:  Class 'boj_awe_widget' not found in D:\study\AppServ\www\item\wordpress\wp-includes\class-wp-widget-factory.php on line 106
+[03-Jan-2017 09:54:05 UTC] PHP Fatal error:  Class 'boj_awe_widget' not found in D:\study\AppServ\www\item\wordpress\wp-includes\class-wp-widget-factory.php on line 106
+[03-Jan-2017 09:55:06 UTC] PHP Fatal error:  Class 'boj_awe_widget' not found in D:\study\AppServ\www\item\wordpress\wp-includes\class-wp-widget-factory.php on line 106
+[03-Jan-2017 09:56:23 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:56:25 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:56:28 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:56:28 UTC] PHP Notice:  Undefined index: rss_data in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 234
+[03-Jan-2017 09:56:28 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 235
+[03-Jan-2017 09:56:46 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:56:46 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 263
+[03-Jan-2017 09:56:46 UTC] PHP Notice:  Undefined index: rss_feed in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 264
+[03-Jan-2017 09:56:46 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 266
+[03-Jan-2017 09:56:46 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 267
+[03-Jan-2017 09:56:47 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:57:30 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:58:00 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 09:58:00 UTC] PHP Notice:  Undefined index: rss_data in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 234
+[03-Jan-2017 09:58:00 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 235
+[03-Jan-2017 09:58:00 UTC] PHP Notice:  Undefined index: rss_data in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 234
+[03-Jan-2017 09:59:02 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 10:00:02 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 10:00:38 UTC] PHP Notice:  在boj_awe_widget中为WP_Widget调用的构造函数已自版本4.3.0起<strong>废弃</strong>！请改用<pre>__construct()</pre>。 in D:\study\AppServ\www\item\wordpress\wp-includes\functions.php on line 3846
+[03-Jan-2017 10:00:38 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 234
+[03-Jan-2017 10:00:38 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 235
+[03-Jan-2017 10:01:10 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 234
+[03-Jan-2017 10:01:10 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 235
+[03-Jan-2017 10:01:31 UTC] PHP Notice:  Undefined index: title in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 263
+[03-Jan-2017 10:01:31 UTC] PHP Notice:  Undefined index: rss_feed in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 264
+[03-Jan-2017 10:01:31 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 266
+[03-Jan-2017 10:01:31 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 267
+[03-Jan-2017 10:02:08 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 234
+[03-Jan-2017 10:02:08 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 235
+[03-Jan-2017 10:02:15 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 262
+[03-Jan-2017 10:02:15 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 263
+[03-Jan-2017 10:02:20 UTC] PHP Fatal error:  Call to undefined function appply_filters() in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 275
+[03-Jan-2017 10:05:38 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 262
+[03-Jan-2017 10:05:38 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 263
+[03-Jan-2017 10:12:10 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 262
+[03-Jan-2017 10:12:10 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 263
+[03-Jan-2017 10:12:13 UTC] PHP Notice: This XML document is invalid, likely due to invalid characters. XML error: Reserved XML Name at line 2, column 39 in D:\study\AppServ\www\item\wordpress\wp-includes\class-simplepie.php on line 1421
+[03-Jan-2017 10:35:48 UTC] PHP Notice:  Undefined index: rss_date in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 234
+[03-Jan-2017 10:35:48 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 235
+[03-Jan-2017 11:56:12 UTC] PHP Notice: This XML document is invalid, likely due to invalid characters. XML error: Reserved XML Name at line 2, column 39 in D:\study\AppServ\www\item\wordpress\wp-includes\class-simplepie.php on line 1421
+[03-Jan-2017 11:56:20 UTC] PHP Notice: This XML document is invalid, likely due to invalid characters. XML error: Reserved XML Name at line 2, column 39 in D:\study\AppServ\www\item\wordpress\wp-includes\class-simplepie.php on line 1421

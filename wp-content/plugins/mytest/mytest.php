@@ -10,7 +10,7 @@ Author URI: http://redream.cn
 include 'function.php';
 
 // 当加载文章内容的时候，执行添加版权信息的方法
-add_action('the_content', 'add_copyright_info');
+// add_action('the_content', 'add_copyright_info');
 
 // 显示主菜单和子菜单
 add_action('admin_menu','add_settings_menu');
@@ -48,5 +48,86 @@ function add_comments_submenu(){
   </div>
 <?php
 }
+
 // 通过get_option()来显示存在数据库中的信息。
 // 以上填写的信息都存在了数据库中的wp_options表里面。
+
+
+// 使用 widgets_init 动作钩子来执行自定义的函数
+    add_action( 'widgets_init', 'boj_widgetexample_register_widgets' );
+ 
+    // 注册小工具
+    function boj_widgetexample_register_widgets() {
+        register_widget( 'boj_widgetexample_widget_my_info' );
+        register_widget( 'boj_awe_widget' );
+    }
+
+//控制板小工具
+add_action( 'wp_dashboard_setup', 'boj_dashboard_example_widgets' );
+ 
+    function boj_dashboard_example_widgets() {
+        // 创建一个自定义的控制板小工具
+        wp_add_dashboard_widget(
+            'dashboard_custom_feed',
+            'My Plugin Information',
+            'boj_dashboard_example_display'
+        );
+    }
+ 
+    function boj_dashboard_example_display() {
+        echo '<p>Please contact support@example.ccom to report bugs.</p>';
+    }
+
+//下面向 post 页面添加一个自定义的元数据框。
+    add_action( 'add_meta_boxes', 'boj_mbe_create' );
+ 
+    function boj_mbe_create() {
+        // 创建元数据框
+        add_meta_box( 'boj-meta', 'My Custom Meta Box', 'boj_mbe_function', 'post', 'normal', 'high' );
+    }
+ 
+    function boj_mbe_function( $post ) {
+        // 获取元数据的值如果存在
+        $boj_mbe_name = get_post_meta( $post->ID, '_boj_mbe_name', true );
+        $boj_mbe_costume = get_post_meta( $post->ID, '_boj_mbe_costume', true );
+ 
+        echo '请填写下面的信息: ';
+        ?>
+        <p>Name: <input type="text" name="boj_mbe_name" value="
+            <?php echo esc_attr( $boj_mbe_name ); ?>" /></p>
+        <p>Costume:
+            <select name="boj_mbe_costume">
+                <option value="vampire" <?php selected( $boj_mbe_costume, 'vampire' ); ?>
+                    >Vampire
+                </option>
+                <option value="zombie" <?php selected( $boj_mbe_costume, 'zombie' ); ?>
+                    >Zombie
+                </option>
+                <option value="smurf" <?php selected( $boj_mbe_costume, 'smurf' ); ?>
+                    >Smurf
+                </option>
+            </select>
+            </p>
+            <?php
+    }
+ 
+    // 用钩子来保存元数据
+    add_action( 'save_post', 'boj_mbe_save_meta' );
+ 
+    function boj_mbe_save_meta( $post_id ) {
+        // 验证元数据存在
+        if ( isset( $_POST['boj_mbe_name'] ) ) {
+            // 保存元数据
+            update_post_meta( $post_id, '_boj_mbe_name',
+                strip_tags( $_POST['boj_mbe_name'] ) );
+            update_post_meta( $post_id, '_boj_mbe_costume',
+                strip_tags( $_POST['boj_mbe_costume'] ) );
+        }
+    }
+
+
+
+
+/**
+ * 如何在插件中使用 WordPress 提供的样式 
+ */
