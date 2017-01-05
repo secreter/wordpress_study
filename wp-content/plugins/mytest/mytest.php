@@ -131,3 +131,141 @@ add_action( 'wp_dashboard_setup', 'boj_dashboard_example_widgets' );
 /**
  * 如何在插件中使用 WordPress 提供的样式 
  */
+add_action( 'admin_menu', 'boj_styling_create_menu' );
+ 
+function boj_styling_create_menu() {
+    // 创建顶级菜单
+    add_menu_page( 'My Plugin Settings', 'Plugin Styling',
+        'read', __FILE__, 'boj_styling_settings' );
+}
+
+function boj_styling_settings() {
+        ?>
+        <div class="wrap">
+            <h2>My Plugin</h2>
+            <h3>My Plugin</h3>
+            <h4>My Plugin</h4>
+            <h5>My Plugin</h5>
+            <h6>My Plugin</h6>
+        </div>
+
+        <div class="wrap">
+        	<?php screen_icon( 'plugins' ); ?>
+            <h2>My Plugin</h2>
+            <div id="message" class="updated">设置保存成功</div>
+            <div id="message" class="error">保存出现错误</div>
+        	<p>
+			<input type="submit" name="Save" value="Save Options" />
+			<input type="submit" name="Save" value="Save Options" class="button-primary" />
+			</p>
+			<p>
+			<input type="submit" name="Secondary" value="Secondary Button" />
+			<input type="submit" name="Secondary" value="Secondary Button" class="button-secondary " />
+			</p>
+			<p>
+			<input type="submit" name="Secondary" value="Secondary Button" class="button-secondary " />
+			<input type="submit" name="Highlighted" value="Button Highlighted" class="button-highlighted" />
+			</p>
+
+			<a href="#">Search</a>
+			<a href="#" class="button-secondary">Search</a>
+			<a href="#" class="button-highlighted">Search</a>
+			<a href="#" class="button-primary">Search</a>
+        </div>
+
+        <div class="wrap">
+		    <?php screen_icon( 'plugins' ); ?> <h2> My Plugin</h2>
+		    <h2><a href-"#">Test</a>
+		    <h3><a href="#">Test</a>
+		    <h4><a href="#">Test</a>
+		    <h5><a href="#">Test</a>
+		    <a href="#">Test</a>
+		</div>
+
+		<!-- 表格 -->
+		<div class="wrap">
+        <?php screen_icon( 'plugins' ); ?>
+        <h2>My Plugin</h2>
+        <form method="POST" action="">
+            <table class="form-table">
+                <tr valign="top">
+                    <th scope="row"><label for="lname">Last Name</label></th>
+                    <td><input id="lname" maxlength="45" size="25" name="lname" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="fname">First Name</label></th>
+                    <td><input maxlength="45" size="25" name="fname" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="color">Favorite Color</label></th>
+                    <td>
+                        <select name="color">
+                            <option value="orange">Orange</option>
+                            <option value="black">Black</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="featured">Featured?</label></th>
+                    <td><input type="checkbox" name="favorite" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="gender">Gender</label></th>
+                    <td>
+                        <input type="radio" name="gender" value="male" /> Male
+                        <input type="radio" name="gender" value="female" /> Female
+                    </td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="bio">Bio</label></th>
+                    <td><input maxlength="45" size="25" name="fname" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row"><label for="fname">First Name</label></th>
+                    <td><textarea name="bio"></textarea></td>
+                </tr>
+                <tr valign="top">
+                    <td>
+                        <input type="submit" name="save" value="Save Options"
+                            class="button-primary" />
+                        <input type="submit" name="reset" value="Reset"
+                            class="button-secondary" />
+                    </td>
+                </tr>
+            </table>
+        	</form>
+    	</div>
+
+    	<table class="widefat">
+		    <thead>
+		        <tr>
+		            <th>Name</th>
+		            <th>Favorite Holiday</th>
+		        </tr>
+		    </thead>
+		    <tfoot>
+		        <tr>
+		            <th>Name</th>
+		            <th>Favorite Holiday</th>
+		        </tr>
+		    </tfoot>
+		    <tbody>
+		        <tr>
+		            <td>First</td>
+		            <td>Second</td>
+		        </tr>
+		    </tbody>
+		</table>
+		<!-- 分页 -->
+		<div class="tablenav">
+		    <div class="tablenav-pages">
+		        <span class="displaying-num">Displaying 1-20 of 66</span>
+		        <span class="page-numbers current">1</span>
+		        <a href="#" class="page-numbers">2</a>
+		        <a href="#" class="page-numbers">3</a>
+		        <a href="#" class="page-numbers">4</a>
+		        <a href="#" class="next page-numbers">&raquo;</a>
+		    </div>
+		</div>
+        <?php
+    }

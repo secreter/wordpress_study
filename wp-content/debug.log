@@ -134,3 +134,8 @@
 [03-Jan-2017 10:35:48 UTC] PHP Notice:  Undefined index: rss_summary in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\function.php on line 235
 [03-Jan-2017 11:56:12 UTC] PHP Notice: This XML document is invalid, likely due to invalid characters. XML error: Reserved XML Name at line 2, column 39 in D:\study\AppServ\www\item\wordpress\wp-includes\class-simplepie.php on line 1421
 [03-Jan-2017 11:56:20 UTC] PHP Notice: This XML document is invalid, likely due to invalid characters. XML error: Reserved XML Name at line 2, column 39 in D:\study\AppServ\www\item\wordpress\wp-includes\class-simplepie.php on line 1421
+[03-Jan-2017 12:49:37 UTC] PHP Notice:  Undefined index: test_hidden in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\mytest.php on line 27
+[03-Jan-2017 12:53:06 UTC] PHP Notice:  Undefined index: test_hidden in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\mytest.php on line 27
+[03-Jan-2017 12:57:53 UTC] PHP Notice:  Undefined index: test_hidden in D:\study\AppServ\www\item\wordpress\wp-content\plugins\mytest\mytest.php on line 27
+[04-Jan-2017 08:33:41 UTC] PHP Warning:  发生了预料之外的错误。WordPress.org或是此服务器的配置可能出了一些问题。如果您持续遇到困难，请试试<a href="http://zh-cn.forums.wordpress.org/">支持论坛</a>。 （WordPress无法建立到WordPress.org的安全连接，请联系您的服务器管理员。） in D:\study\AppServ\www\item\wordpress\wp-includes\update.php on line 130
+[04-Jan-2017 08:34:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in D:\study\AppServ\www\item\wordpress\wp-includes\Requests\Transport\cURL.php on line 163
