@@ -90,7 +90,7 @@ You may provide arbitrary sections, in the same format as the ones above.  This 
 plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
 "installation."  Arbitrary sections will be shown below the built-in sections outlined above.
  
-== A brief Markdown Example ==
+== A brief Markdown Example =====
  
 Ordered list:
  
