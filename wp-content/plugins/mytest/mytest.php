@@ -269,7 +269,3 @@ function boj_styling_settings() {
 		</div>
         <?php
     }
-
-
-
-
